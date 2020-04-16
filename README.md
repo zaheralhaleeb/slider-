@@ -131,7 +131,7 @@ via the GitHub interface.
 3. animate the intro slider (slider-1) the h1 should come from the top to the middle and the paragraph should come form the left to the middle 
 4. add transition to the buttons on hover (change the colors and the background )
 5. animate each slide when you click on the buttons, you can use [scroll-behavior](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
-Hint: you have to use `transform:translateX ` transform:translateY `for the animation
+Hint: you have to use `transform:translateX transform:translateY `for the animation
 ### Good luck!
 _The whole page should look something like this_
 
