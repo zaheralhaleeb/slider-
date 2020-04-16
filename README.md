@@ -126,12 +126,12 @@ via the GitHub interface.
 
 ## Assignments
 **Slider Website** 
-1. using the next and prev buttons show the slides from 1 to 4.
-2. add the CSS to show every slide with full view port and add background-color to every slide and hide the page scroll to prevent scrolling (you should see the next after you click the button)
+1. use the next and prev buttons to show the slides from 1 to 4.
+2. add the CSS to view each slide with full view port and add a background-color to each slide then hide the page scroll to prevent scrolling (you will move to the next slide by clicking on next button)
 3. animate the intro slider (slider-1) the h1 should come from the top to the middle and the paragraph should come form the left to the middle 
 4. add transition to the buttons on hover (change the colors and the background )
 5. animate each slide when you click on the buttons, you can use [scroll-behavior](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
-Hint: you have to use `transform:translateX transform:translateY `for the animation
+Hint: you can use `transform:translateX transform:translateY `for the animation
 ### Good luck!
 _The whole page should look something like this_
 
