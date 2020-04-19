@@ -1,2 +1,159 @@
 body {
   margin: 0; }
+  
+  .slider{
+      text-align: center;
+      color:#fff;
+    }
+    img{
+      width: 200px;
+      margin-top: 50px;
+    }
+  
+/*start slider1*/
+#slider-1{
+  background-color: #080;
+}
+ 
+#slider-1 ,#slider-2 ,#slider-3 ,#slider-4 h1{
+  position: relative;
+  -webkit-animation: head 3s forwards;
+  -moz-animation: head 3s forwards;
+  animation: head 3s forwards;
+}
+@-webkit-keyframes head {
+  0%{
+    top: -50px;
+  }
+  100%{
+    top: 50px;
+  }
+}
+@-moz-keyframes head {
+  0%{
+    top: -50px;
+  }
+  100%{
+    top: 50px;
+  }
+}
+@keyframes head {
+  0%{
+    top: -50px;
+  }
+  100%{
+    top: 50px;
+  }
+}
+#slider-1 ,#slider-2 ,#slider-3 ,#slider-4 p{
+  position: relative;
+  line-height: 1.7;
+  -webkit-animation:para 5s forwards;
+  -moz-animation: para 5s forwards;
+  animation:para 5s forwards;
+}
+@-webkit-keyframes para {
+  0%{
+    left: -1000px;
+  }
+  100%{
+    left:0;
+  }
+}
+@-moz-keyframes para {
+  0%{
+    left: -1000px;
+  }
+  100%{
+    left:0;
+  }
+}
+
+@keyframes para {
+  0%{
+    left: -1000px;
+  }
+  100%{
+    left:0;
+  }
+}
+.front{
+  backface-visibility: hidden;
+}
+.btn{
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #333;
+  margin-top: 20px;
+  opacity: 0;
+  -webkit-animation: ptn 5s  3s forwards;
+  -moz-animation: ptn 5s  3s forwards;
+  animation: ptn 5s  3s forwards;
+  -webkit-transition: transform , 1s;
+  -moz-transition: transform , 1s;
+  transition: transform , 1s;
+  
+
+}
+@-webkit-keyframes ptn {
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+@-moz-keyframes ptn {
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+@keyframes ptn {
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+.btn:hover{
+  -webkit-transform: rotatex(180deg);
+  -moz-transform: rotatex(180deg);
+  transform: rotatex(180deg);
+}
+.btn-dark{
+  background-color: grey;
+}
+
+
+
+
+
+
+/*end slider1*/
+/*start slider2*/
+#slider-2{
+  background-color: rgb(89, 87, 214);
+}
+ 
+
+/*end slider2*/
+/*start slider3*/
+#slider-3{
+  background-color:lightblue;
+}
+
+/*end slider3*/
+/*start slider4*/
+#slider-4{
+  background-color:gray;
+}
+
+
+/*end slider4*/
